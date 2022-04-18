@@ -1,0 +1,44 @@
+[
+  {
+      "id": 1,
+      "name": "Khacchi Biriyani",
+      "price": "300",
+      "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+      "img": "https://as1.ftcdn.net/v2/jpg/01/43/08/22/1000_F_143082202_uNAFQN2CnXMZsqoBiw6cMbVyYFVUNKS7.jpg"
+  },
+  {
+      "id": 2,
+      "name": "WHEEL ALIGNMENT",
+      "price": "100",
+      "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+      "img": "https://as1.ftcdn.net/v2/jpg/03/88/52/28/1000_F_388522801_tc1KOBS0SHPqXuR2vBVkuiFR0PuSsoZc.jpg"
+  },
+  {
+      "id": 3,
+      "name": "OIL CHANGING",
+      "price": "150",
+      "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+      "img": "https://as2.ftcdn.net/v2/jpg/02/01/97/51/1000_F_201975186_RrRj7XgVrMuXg7ERi5LEWmvZqyA9CFCT.jpg"
+  },
+  {
+      "id": 4,
+      "name": "BRAKE REPARING",
+      "price": "180",
+      "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+      "img": "https://as2.ftcdn.net/v2/jpg/00/55/45/95/1000_F_55459579_XCVumhfbS1exdQ7TjDZIDSkyfhKItDKH.jpg"
+  },
+  {
+      "id": 5,
+      "name": "WASH AND GLASSING",
+      "price": "100",
+      "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+      "img": "https://as2.ftcdn.net/v2/jpg/04/61/81/55/1000_F_461815509_c9FyTDOA651YhdLKNJ1DbSZu93USnhAL.jpg"
+  },
+  {
+      "id": 6,
+      "name": "COMPLETE ANALYSIS",
+      "price": "300",
+      "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+      "img": "https://as1.ftcdn.net/v2/jpg/02/21/06/66/1000_F_221066635_FaQum1sYHWk4wmpmwaJ7nfCVtT7knm4s.jpg"
+  }
+]
