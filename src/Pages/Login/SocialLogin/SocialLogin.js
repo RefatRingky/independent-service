@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import google from '../../../image/social/google.png';
 import github from '../../../image/social/github.png'
+import Loading from '../../Shared/Loading/Loading';
 
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
@@ -12,7 +13,9 @@ const SocialLogin = () => {
 
     let errorElement;
      
-
+    if(loading || loading1){
+        return <Loading></Loading>
+    }
     
     if (error || error1) {
         errorElement = <p className='text-danger'>Error: {error?.message} {error1?.message}</p>
