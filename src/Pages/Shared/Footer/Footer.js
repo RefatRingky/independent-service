@@ -6,7 +6,7 @@ const Footer = () => {
     const year = today.getFullYear()
     return (
         <div className='footer text-center mt-8'>
-            <p><small>Copywrite @ {year}</small></p>
+            <p><small>Copywrite @ {year} Refat Tamanna Ringky</small></p>
         </div>
     );
 };
