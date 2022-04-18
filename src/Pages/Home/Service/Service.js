@@ -10,10 +10,10 @@ const Service = ({service}) => {
     }
     return (
         <div className='service'>
-            <img src={img} alt='' height="400px" width="300"></img>
+            <img src={img} alt='' height="400px" width="350"></img>
             <h4>Name:{name}</h4>
             <p>Price:${price}</p>
-            <button onClick={() =>navigateToServiceDetail(id)}>Order Now:{name}</button>
+            <button className='btn btn-danger' onClick={() =>navigateToServiceDetail(id)}>Order Now:{name}</button>
         </div>
     );
 };
