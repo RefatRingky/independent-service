@@ -17,7 +17,7 @@ function App() {
     <div>
 
       <Header></Header>
-      <h2 className='text-center' >Rinrav's Home Made Achar Service</h2>
+      <h2 className='text-center mt-2' >Rinrav's Home Made Achar Service</h2>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>

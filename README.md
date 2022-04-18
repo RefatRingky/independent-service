@@ -6,6 +6,7 @@
  - I create one Service section ,and in this section if you click buy now button you can go checkout page.
  - Create Login and SignUp form.
  - Create Reset Password.
+ - Control redirect login page
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
