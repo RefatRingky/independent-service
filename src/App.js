@@ -15,7 +15,9 @@ import RequiredAuth from './Pages/Login/RequiredAuth/RequiredAuth';
 function App() {
   return (
     <div>
+
       <Header></Header>
+      <h2 className='text-center' >Rinrav's Home Made Achar Service</h2>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
