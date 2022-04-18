@@ -12,7 +12,7 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification: true});
     const navigate = useNavigate();
 
     const navigateLogin = () =>{
@@ -30,9 +30,9 @@ const Register = () => {
         const password = event.target.password.value;
         // const agree = event.target.terms.checked;
 
-        // if(agree){
-        //     createUserWithEmailAndPassword(email, password);
-        // }
+        if(agree){
+            createUserWithEmailAndPassword(email, password);
+        }
 
       
     }
@@ -47,8 +47,10 @@ const Register = () => {
                 
                 <input type="password" name="password" id="" placeholder='Password' required/>
                 <input onClick={()=> setAgree(!agree)} type="checkbox" name='terms' id='terms' />
-                <label htmlFor='terms'>To Buy Follow Terms and Condition</label>
-                <input className='w-50 mx-auto btn btn-primary mt-2' type="submit" value="Register" />
+                <label className={agree ? 'ps-2 text-primary': 'ps-2 text-danger'} htmlFor='terms'>To Buy Follow The Terms and Condition</label>
+                <input
+                  disabled={!agree}
+                 className='w-50 mx-auto btn btn-primary mt-2' type="submit" value="Register" />
             </form>
             <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
             <SocialLogin></SocialLogin>
