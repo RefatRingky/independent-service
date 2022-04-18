@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Register.css';
@@ -6,6 +6,7 @@ import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
+    const [agree,setAgree] = useState()
     const [
         createUserWithEmailAndPassword,
         user,
@@ -27,8 +28,13 @@ const Register = () => {
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
+        // const agree = event.target.terms.checked;
 
-        createUserWithEmailAndPassword(email, password);
+        // if(agree){
+        //     createUserWithEmailAndPassword(email, password);
+        // }
+
+      
     }
 
     return (
@@ -40,7 +46,7 @@ const Register = () => {
                 <input type="email" name="email" id="" placeholder='Email Address' required/>
                 
                 <input type="password" name="password" id="" placeholder='Password' required/>
-                <input type="checkbox" name='terms' id='terms' />
+                <input onClick={()=> setAgree(!agree)} type="checkbox" name='terms' id='terms' />
                 <label htmlFor='terms'>To Buy Follow Terms and Condition</label>
                 <input className='w-50 mx-auto btn btn-primary mt-2' type="submit" value="Register" />
             </form>
