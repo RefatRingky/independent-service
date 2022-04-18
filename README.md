@@ -1,10 +1,11 @@
-# Rinrav's Home Made Achar Service
+# Welcome Rinrav's Home Made Achar Service
 #Project Description
- -In this Project I used React Router,Firebase,React Bootstrap
- -I used Email Verification.
- -I create one Service section ,and in this section if you click buy now button you can go checkout page
- -Create Login and SignUp form
- -Create Reset Password
+*I used*
+ In this Project I used React Router Firebase React Bootstrap.
+ - I used Email Verification.
+ - I create one Service section ,and in this section if you click buy now button you can go checkout page.
+ - Create Login and SignUp form.
+ - Create Reset Password.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
